@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Advent of Code 2024
 
@@ -6,3 +7,8 @@ This repository will track my progress throughout the 2024 Advent of Code challe
 Each solution will be well-documented with explanations and thought processes, so you can follow along and understand the approach for each problem. I’ll be using a variety of programming languages and techniques, exploring different problem-solving strategies along the way.
 
 Feel free to contribute, discuss, or provide feedback on any of the solutions. Let’s see how far we can go together!
+=======
+# adventofcode_2024
+Just a repo to track my progress in problem solving - Advent Of Code [2024]
+
+>>>>>>> d2d6ca6 (new readme.md)
