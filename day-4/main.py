@@ -1,10 +1,10 @@
-
-
-def ceres_search():
-
-
+def handling_file():
     with open('text.txt', 'r') as file:
        grid = [line.strip() for line in file]
+    return grid
+
+def part1():
+    grid = handling_file()
 
     count = 0
 
@@ -23,15 +23,12 @@ def ceres_search():
     return count
                 
 
-sol = ceres_search()
+sol = part1()
 print(f'Part1 sol: {sol}')
 
 
 def part2():
-    with open('text.txt', 'r') as file:
-        grid = [line.strip() for line in file]
-
-
+    grid = handling_file()
     count = 0
 
     for r in range(1, len(grid) - 1):
